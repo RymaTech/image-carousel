@@ -42,7 +42,7 @@ const moveImage = () => {
     i < images.length - 1 ? i++ : i = 0;
     timer = setTimeout("moveImage()", speed); //set the timeout speed.
     colorMarkers(i); //change the image and markers.
-  } else {
+  } else { // if moving equals false.
     clearTimeout(timer); //Clear the timeout to stop sides speeding up when hitting play pause repetitively.
   }
 }
@@ -61,7 +61,6 @@ const inScope = (val) => { //keep i in scope, so it doesn't look for a number ou
   }
   return val;
 }
-
 
 const pauseButton = () => {
   pause.innerText = 'Play'; //set the text to play.
@@ -109,8 +108,6 @@ document.onkeydown = function(e) {
       colorMarkers(i);
       break;
     case 0: //spacebar in mozilla.
-      moving ? pauseButton() : playButton();
-      break;
     case 32: //spacebar on most browsers.
       moving ? pauseButton() : playButton();
       break;
