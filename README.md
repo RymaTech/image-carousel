@@ -1,6 +1,6 @@
 <h1>Image Carousel for Founders & Coders Spring 2019 Application</h1>
 
-<p>This is my image carousel, in application for Founders & Coders 2019 spring course cohort. </b> It was submitted on 31 December 2018</b></p>
+<p>This is my image carousel, in application for Founders & Coders 2019 spring course cohort. <b> It was submitted on 31 December 2018</b></p>
 
 
 <h2>Features</h2>
