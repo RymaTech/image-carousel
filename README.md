@@ -19,5 +19,5 @@
 <ul>
 <li>I have implemented slide tracker which consists of four markers (dots). The markers highlight at which stage the slider
 is at. (first marker highlights when first slide is showing, second marker when second slide is showing etc).</li>
-<li>Space Bar to hit play and pause.</li>
+<li>Space Bar to hit play and pause. </li>
 </ul>
